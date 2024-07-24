@@ -36,8 +36,9 @@ This project focuses on characterizing and selecting IMU (Inertial Measurement U
 
 1. **IMU Device Driver**:
    - The provided code can be used as a device driver for the Vectornav VN-100 IMU. It opens the serial port with a baud rate of 115200 and configures the IMU to output data at 200Hz.
-    python3 IMU-Driver/src/imu_device_driver/imu_device_driver.py
-
+      ```bash
+      python3 IMU-Driver/src/imu_device_driver/imu_device_driver.py
+      ```
 2. **Data Collection**:
    - Collected a time series data (rosbag) for accelerometers, gyros, and magnetometers.
    - Recorded data for at least 10-15 minutes with the IMU stationary, away from potential sources of interference.
